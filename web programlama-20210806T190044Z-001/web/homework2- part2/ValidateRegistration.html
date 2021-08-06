@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zeynep Baykal">
+    <script type="text/javascript" src="javascripts.js"></script>
+    <title>ValidateRegistration</title>
+</head>
+<style type="text/css">
+    a{
+        color:red;
+    }
+</style>
+<body style="background-color:lightblue">
+<form name="form">
+    <p style="color:red; font-size:x-large"><b>Enter Your Name : </b></p>
+    <input type="text" name="Name" value="">
+    <p style="color:red; font-size:x-large"><b>Enter Your Age :</b></p>
+    <input type="number" name="Age">
+    <p style="color:red; font-size:x-large"><b>Enter Your Address :</b></p>
+    <textarea name="Address" required rows="5" cols="40"></textarea>
+    <p style="color:red; font-size:x-large"><b>Sex :</b></p>
+    <input type="radio" name="Gender" value="Female"><a>Female</a> <br>
+    <input type="radio" name="Gender" value="Male"><a>Male</a>
+
+    <p style="color:red; font-size:large"><b>Languages Known :</b></p> 
+    <p style="color:red;font-size: large; text-align: right; margin-right: 300px ;">(select more than one) </p>
+    <input type="checkbox" name="Lang[]" id="Lang" value="C"/><a>C</a><br>
+    <input type="checkbox" name="Lang[]" id="Lang" value="C++"/><a>C++</a> <br>
+    <input type="checkbox" name="Lang[]" id="Lang" value="VB"/><a>VB</a> <br>
+    <input type="checkbox" name="Lang[]" id="Lang" value="JAVA"/><a>JAVA</a> <br>
+    <input type="checkbox" name="Lang[]" id="Lang" value="ASP"/><a>ASP</a> <br>
+    <input type="checkbox" name="Lang[]" id="Lang" value="OTHERS"/><a>OTHERS</a> <br>
+
+    <p style="color:red; font-size:large"><b>Enter your password :</b></p>
+    <input type="pass" name="pass">
+    <br><br>
+    <input style="font-size:large; float: right;" type="button" value="Check" onClick="checkButton()"> 
+    <input style="font-size:large; float: right; margin-right: 10px;"  type="button" value="Reset" onClick="resetButton()">
+    
+</form>
+</body>
+</html>

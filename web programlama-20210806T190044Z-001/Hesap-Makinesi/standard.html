@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link media="screen" href="stylee.css" type="text/css" rel="stylesheet" />
+    <meta name="author" content="Zeynep Baykal">
+    <script src="standard.js"></script>
+    <style>
+        *{
+    font-family: "Times New Roman", Times, serif;
+ }
+ 
+ 
+    </style>
+</head>
+
+<body>
+    <div class="box-1">
+        <div class="main-header"><a>ONLİNE CALCULATOR</a></div>
+
+        <div class=menü>
+            <ul>
+                <li><a href="standard.html">Standard</a></li>
+                <li><a href="programmer.html">Programmer</a></li>
+                <li><a href="scientific.html">Scientific</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <form name="form">
+                 <div style="text-align:center" class="text">
+                   <input type="text" name="result" id="Value" value="">
+                    <p>Result: <span name="result" id="result"></span></p>
+                </div>
+
+              
+                <div class="button">
+                   <button type="button" onclick="hesapla('+')" value="+">+</button>
+                   <button type="button" onclick="hesapla('-')" value="-">-</button>
+                   <button type="button" onclick="hesapla('*')" value="*">*</button>
+                   <button type="button" onclick="hesapla('/')" value="/">/</button>
+                   <button type="button" onclick="hesapla('%')" value="%">%</button >
+                    
+                </div>
+                <div class="button">
+                    <button type="button" onClick="random()" value="Random">Random</button>
+                    <button type="button" onClick="numberOfDigit()" value="Total Number Of Digit">Total Number Of Digit</button>
+                </div>
+                <div class="button">
+                    <button type="button" onClick="decPoint()" value="Deciamal Point">Decimal Point</button>
+                </div>
+                <div class="button">
+                    <button type="button" onClick="afterDecimal()" value="After Decimal">After Decimal</button>
+                    <button type="button" onClick="beforeDecimal()" value="Before Decimal">Before Decimal</button>
+                </div>
+                <div class="button">
+                    <button type="button" onClick="resetle()" value="Reset">Reset</button>
+                    <button type="button" onClick="deleteInput()" value="Delete">Delete</button>
+                </div>
+        
+            </form>
+
+      
+
+           
+        </div>
+
+    </div>
+   
+   
+</body> 

@@ -1,0 +1,91 @@
+#menü {
+    margin-left: 85px;
+    margin-right: 85px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background: #57626a;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+    #menü ul {
+    padding-left: 10px;
+    }
+
+    #menü ul li {
+    display: block;
+    float: left;
+    }
+
+    #menü ul li a {
+    color: #eee;
+    padding: 0 10px;
+    font-weight: 100;
+    font-size: 14px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .main-div{
+        height: 150px;
+        position: relative;
+        margin-top: 15px;
+        left: -235px;
+        width: 120px;
+        float: left;
+        padding: 10px;
+        border-right: 2px solid rgb(172, 170, 170);
+        font-size: 14px;
+    }
+    .main-div ul {
+    padding: 5px 20px;
+    color:  rgb(172, 170, 170);
+    list-style-type: square;
+    }
+    
+    .Content {
+    position: relative;
+    left: -580px;
+    float: right;
+    text-align: justify;
+    }
+    
+    .Table{
+        margin-top: 25px;
+        margin-left: -190px;
+    }
+  
+    .Content-{
+     margin-top: 15px;
+     color:#3D4750  ;
+     flex-grow: 3;
+     height: 100%;
+     padding-left: 30px;
+     display: flex;
+     flex-direction: column;
+
+    }
+
+    .Content h2 {
+    color:red;
+    font-size: 20px;
+    font-weight: 100;
+    }
+    
+
+    .Class {
+       
+        position: relative;
+        left: -180px;
+        }
+
+    .Class-h2 {
+        color:red;
+        margin-left: -150px;
+        font-size: 20px;
+        font-weight: 100;
+        }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link media="screen" href="stylee.css" type="text/css" rel="stylesheet" />
+    <script src="Scientific.js"></script> 
+    <meta name="author" content="Zeynep Baykal"/>
+
+    <style>
+        *{
+    font-family: "Times New Roman", Times, serif;
+ }
+ 
+ 
+    </style>
+</head>
+
+<body>
+    <div class="box-1">
+        <div class="main-header"><a>ONLİNE CALCULATOR</a>
+            
+        </div>
+        <div class=menü>
+            <ul>
+                <li><a href="standard.html">Standard</a></li>
+                <li><a href="programmer.html">Programmer</a></li>
+                <li><a href="scientific.html">Scientific</a></li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <form name="form">
+
+                <div style="text-align:center" class="text">
+                    <input type="text" name="result" id="Value" value="">
+                    <p>Result: <span name="res" id="result"> </span></p>
+                </div>
+        
+                <div class="button">
+                   <button type="button" onclick="sin()" value="Sin"> Sin</button>
+                   <button type="button" onclick="cos()" value="Cos">Cos</button>
+                   <button type="button" onclick="tan()" value="Tanh">Tanh</button>
+                   <button type="button" onclick="exp()" value="exp">exp</button>
+                   <button type="button" onclick="xpow()" value="xⁿ">xⁿ</button>
+                   
+                </div>
+                <div class="button">
+                    <button type="button" onclick="log()" value="Log">Log</button>
+                    <button type="button" onClick="factoriel()" value="N!">N!</button>
+                    <button type="button" onClick="changesign()" value="Changing sign">Changing sign</button>
+                </div>
+                <div class="button">
+                    <button type="button" onClick="validityinput()" value="Validity of each input">Validity of ecah input</button>
+                </div>
+            
+                <div class="button">
+                    <button type="button" onClick="resetle()" value="Reset">Reset</button>
+                    <button type="button" onClick="deleteInput()" value="Delete">Delete</button>
+                </div>
+
+            </form>
+       
+           
+        </div>
+
+
+
+    </div>
+   
+   
+</body> 
+
+</html>

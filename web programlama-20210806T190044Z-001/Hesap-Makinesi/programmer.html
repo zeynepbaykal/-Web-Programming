@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link media="screen" href="stylee.css" type="text/css" rel="stylesheet" />
+    <meta name="author" content="Zeynep Baykal">
+    <script src="programm.js"></script>
+    <style>
+        *{
+    font-family: "Times New Roman", Times, serif;
+ }
+ 
+ 
+    </style>
+</head>
+
+<body>
+    <div class="box-1">
+        <div class="main-header"><a>ONLİNE CALCULATOR</a></div>
+
+        <div class=menü>
+            <ul>
+                <li><a href="standard.html">Standard</a></li>
+                <li><a href="programmer.html">Programmer</a></li>
+                <li><a href="scientific.html">Scientific</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <form name="form">
+
+                <div style="text-align:center" class="text">
+                   <input type="text" name="result" id="Value" value="">
+                    <p>Result: <span name="res" id="result"></span></p>
+                </div>
+        
+                <div class="button">
+                   <button type="button" onclick="binarytodecimal()" value="Binary to Decimal">Binary to Decimal</button>
+                </div>
+        
+                <div class="button">
+                    <button type="button" onclick="decimaltobinary()" value="Decimal to Binary">Decimal to Binary</button>
+                  
+                </div>
+        
+                <div class="button">
+                    <button type="button" onclick="hextodecimal()" value="Hex to Decimal">Hex to Decimal</button>
+                </div>
+        
+                <div class="button">
+                    <button type="button" onclick="decimaltohex()" value="Decimal to Hex">Decimal to Hex</button>
+                    
+                </div>
+        
+                <div class="button">
+                    <button type="button" onclick="reset()" value="Reset">Reset </button>
+                    <button type="button" onclick="deleteInput()" value="Delete">Delete</button>
+                  
+                </div>
+                
+            </form>
+        
+           
+        </div>
+        
+
+    </div>
+    
+   
+</body> 
+</html>

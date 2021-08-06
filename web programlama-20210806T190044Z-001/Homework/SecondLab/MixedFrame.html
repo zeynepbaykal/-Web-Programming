@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Frame</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+  .main-div{
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      background-color: grey;
+  }
+
+  .first-div{
+  height: 50%;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  overflow:auto;
+  }
+
+  .second-div{
+  position: relative;
+  height: 50%;
+  width: 100%;
+ 
+  }
+
+
+
+  .bordered-div{
+      margin-top: 5px;
+      margin-left: 150px;
+      width: 80%;
+      height: 40px;
+      border: 2px solid red;
+  }
+
+  .bordered-div-two{
+      margin-top: 5px;
+      margin-left: 150px;
+      width: 80%;
+      height: 40px;
+      border: 2px dotted greenyellow;
+  }
+
+.f2{
+
+Margin-top=50%;
+
+  position: fixed;
+   left: 0;
+   background-color: #A52A2A;
+}
+.f1{
+
+Margin-top=50%;
+  position: fixed;
+   right:  0;
+   background-color: #00FFFF;
+}
+
+    </style>
+</head>
+<body>
+
+<iframe width="50%" height="100%" class="f1"></iframe>
+<iframe width="50%" height="100%" class="f2"></iframe>
+ 
+
+    <div class="main-div">
+        <div class="first-div">
+          <div class="bordered-div">
+           A Solid Red Border
+          </div>
+         
+          <div class="bordered-div">
+            A Solid Red Border
+          </div>
+
+          <div class="bordered-div">
+            A Solid Red Border
+          </div>
+
+          <div class="bordered-div-two">
+            A Solid Green Border
+          </div>
+
+          <div class="bordered-div">
+            A Solid Red Border
+           </div>
+          
+           <div class="bordered-div">
+             A Solid Red Border
+           </div>
+ 
+           <div class="bordered-div">
+             A Solid Red Border
+           </div>
+ 
+           <div class="bordered-div-two">
+             A Solid Green Border
+           </div>
+           <div class="bordered-div">
+            A Solid Red Border
+           </div>
+          
+           <div class="bordered-div">
+             A Solid Red Border
+           </div>
+ 
+           <div class="bordered-div">
+             A Solid Red Border
+           </div>
+ 
+           <div class="bordered-div-two">
+             A Solid Green Border
+           </div>
+  
+		</div>
+	</div>
+
+
+
+</body>
+</html>
